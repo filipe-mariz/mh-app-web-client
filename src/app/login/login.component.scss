@@ -1,0 +1,69 @@
+* {
+  color: white;
+  height: auto;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-image: url("assets/Icon.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 32vh;
+}
+
+.title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: xx-large;
+  position: relative;
+  margin-top: 10vh;
+  .mission { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+  .house { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+}
+
+.login {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+
+  .input-login, .input-password { width: 100%; }
+  .acess { display: flex; justify-content: center; }
+
+  input {
+    width: 80vw;
+    height: 5vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 5vh;
+    padding-left: 2px;
+    outline: none;
+    max-width: 80vh;
+  }::-webkit-input-placeholder { color: white; }
+
+ button {
+  background: #2F2F2F;
+  width: 70vw;
+  height: 5vh;
+  border: none;
+  border-radius: 10px;
+ }:hover {
+  background: #232222;
+ }
+}
